@@ -1,0 +1,3 @@
+<input type="text" class="form-control" [(ngModel)]="usernameLabel">
+<button class="btn btn-primary" [disabled]="!usernameLabel" (click)="onCreateUsername()">Add User</button>
+<p>{{ usernameCreationStatus }}</p>
